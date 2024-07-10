@@ -92384,7 +92384,7 @@ p=new A.jq(A.aK(t.lZ))
 p.b=!0
 o=t.N
 s=3
-return A.a_(p.ll("POST",A.ee("http://localhost/api/login"),A.au(["Content-Type","application/json"],o,o),B.aE.n_(A.au(["userId",a,"password",b],o,o),null),null),$async$Bf)
+return A.a_(p.ll("POST",A.ee("https://tess.lets-creta.com/api/login"),A.au(["Content-Type","application/json"],o,o),B.aE.n_(A.au(["userId",a,"password",b],o,o),null),null),$async$Bf)
 case 3:n=d
 if(n.b===200){m=n.e
 l=B.aE.dm(0,A.avS(A.av6(m).c.a.h(0,"charset")).dm(0,n.w))
@@ -92405,14 +92405,14 @@ q=new A.jq(A.aK(t.lZ))
 q.b=!0
 p=t.N
 s=2
-return A.a_(q.ll("POST",A.ee("http://localhost/api/logout"),A.au(["Content-Type","application/json","Access",J.dB(window.localStorage.getItem("access"))],p,p),null,null),$async$Bg)
+return A.a_(q.ll("POST",A.ee("https://tess.lets-creta.com/api/logout"),A.au(["Content-Type","application/json","Access",J.dB(window.localStorage.getItem("access"))],p,p),null,null),$async$Bg)
 case 2:window.localStorage.clear()
 return A.S(null,r)}})
 return A.T($async$Bg,r)},
 pi(){var s=0,r=A.U(t.y),q,p=2,o,n,m,l,k,j,i,h,g
 var $async$pi=A.V(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
-n="http://localhost/api/refresh"
+n="https://tess.lets-creta.com/api/refresh"
 A.ZN()
 m=new A.jq(A.aK(t.lZ))
 if(m instanceof A.jq)m.b=!0
@@ -92446,7 +92446,7 @@ pp(a,b){return this.a_3(a,b)},
 a_3(a,b){var s=0,r=A.U(t.px),q,p=this,o,n,m,l,k
 var $async$pp=A.V(function(c,d){if(c===1)return A.R(d,r)
 while(true)switch(s){case 0:o=B.e.cL(Date.now(),1000)
-n=A.ee("http://localhost/api/getAllAnnounce")
+n=A.ee("https://tess.lets-creta.com/api/getAllAnnounce")
 m=t.N
 l=A.au(["Content-Type","application/json","Access",J.dB(window.localStorage.getItem("access"))],m,m)
 s=3
@@ -92476,7 +92476,7 @@ return A.T($async$pp,r)},
 pC(a){return this.a_L(a)},
 a_L(a){var s=0,r=A.U(t.y),q,p=this,o,n,m,l
 var $async$pC=A.V(function(b,c){if(b===1)return A.R(c,r)
-while(true)switch(s){case 0:m=A.ee("http://localhost/api/setAnnounce")
+while(true)switch(s){case 0:m=A.ee("https://tess.lets-creta.com/api/setAnnounce")
 l=t.N
 l=A.au(["Content-Type","application/json","Access",J.dB(window.localStorage.getItem("access"))],l,l)
 s=3
@@ -92511,7 +92511,7 @@ return A.T($async$pC,r)},
 qV(a){return this.any(a)},
 any(a){var s=0,r=A.U(t.y),q,p=this,o,n,m,l,k,j
 var $async$qV=A.V(function(b,c){if(b===1)return A.R(c,r)
-while(true)switch(s){case 0:m=A.ee("http://localhost/api/deleteAnnounce")
+while(true)switch(s){case 0:m=A.ee("https://tess.lets-creta.com/api/deleteAnnounce")
 l=t.N
 k=A.au(["Content-Type","application/json","Access",J.dB(window.localStorage.getItem("access"))],l,l)
 j=a.a
@@ -92544,7 +92544,7 @@ return A.T($async$qV,r)},
 pn(a,b){return this.a__(a,b)},
 a__(a,b){var s=0,r=A.U(t.Xs),q,p=this,o,n,m,l,k
 var $async$pn=A.V(function(c,d){if(c===1)return A.R(d,r)
-while(true)switch(s){case 0:n=A.ee("http://localhost/api/getHostList")
+while(true)switch(s){case 0:n=A.ee("https://tess.lets-creta.com/api/getHostList")
 m=t.N
 l=A.au(["Content-Type","application/json","Access",J.dB(window.localStorage.getItem("access"))],m,m)
 s=3
@@ -92693,7 +92693,7 @@ a6S(a,b,c,d,e){var s=0,r=A.U(t.Wd),q,p=2,o,n,m,l,k,j,i
 var $async$y_=A.V(function(f,g){if(f===1){o=g
 s=p}while(true)switch(s){case 0:j=null
 p=4
-n=A.ee("http://localhost/api/content/upload")
+n=A.ee("https://tess.lets-creta.com/api/content/upload")
 m=window.localStorage.getItem("access")
 if(m==null)m=""
 l=t.N
@@ -92724,7 +92724,7 @@ return A.T($async$y_,r)},
 zs(){var s=0,r=A.U(t.y),q,p=2,o,n,m,l,k,j,i,h,g
 var $async$zs=A.V(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
-n="http://localhost/api/refresh"
+n="https://tess.lets-creta.com/api/refresh"
 A.ZN()
 m=new A.jq(A.aK(t.lZ))
 if(m instanceof A.jq)m.b=!0
